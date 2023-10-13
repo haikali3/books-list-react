@@ -12,8 +12,8 @@ function App() {
     setBooks(response.data);
   };
 
+  //render once
   useEffect(() => {
-    //render once
     fetchBooks();
   }, []);
 
@@ -22,10 +22,10 @@ function App() {
   //   fetchBooks();
   // });
 
-  //render when books change
+  // render when books change (componentDidUpdate)
   // useEffect(() => {
   //   fetchBooks();
-  // }, [setBooks]]);
+  // }, [setBooks]);
 
   const editBookById = (id, newTitle) => {
     const updatedBooks = books.map((book) => {
