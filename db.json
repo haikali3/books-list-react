@@ -1,12 +1,3 @@
 {
-  "books": [
-    {
-      "title": "asda",
-      "id": 1
-    },
-    {
-      "title": "",
-      "id": 2
-    }
-  ]
+  "books": []
 }
